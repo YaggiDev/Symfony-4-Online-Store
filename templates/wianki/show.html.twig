@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block title %}Artystycznie - {{product.nazwa}} {% endblock %}
+{% block head %}
+    <link href="{{asset('styles/show.css')}}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block body %}
+    <div class="content">
+        <div class="artykul">
+            <p>{{ product.nazwa }}</p>
+            <p><img src="{{asset('images/')}}{{ kategoria }}/{{ product.nazwa }}.jpg"></p>
+            <form method="post" action="/prodAdd/{{ product.kategoria }}/w/{{ product.id }}">
+            <p>Ilość:
+                <button type="button"class="ValueManager" id="decrement" onclick="decrementValue({{ product.cena }})">-</button>
+                <input type="text" name="quantity" class="quantity_item" id="quantity_pole" value="1" readonly="readonly">
+                <button type="button" class="ValueManager" id="increment" onclick="incrementValue({{ product.cena }})">+</button>
+            </p>
+
+           <p>Cena: <input name="price" type="text" class="price" id="price" value="{{ product.cena }}" readonly="readonly"> zł</p>
+            <button type="submit" class="zamow">Dodaj do koszyka</button>
+          </form>
+            <p class="opis">{{ product.opis }}</p>
+
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('js/quantity_item.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends ('base.html.twig') %}
+{% block title %}Artystycznie - Kontakt{% endblock %}
+{% block head %}
+    <link href="{{ asset('styles/contact.css') }}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block body %}
+    <div class="dane">
+        <p>Dane kontakowe</p>
+        <p>Joanna Jagiełło</p>
+        <p>E-mail: <a href="mailto:artystycznie@joannajagiello.pl"><span style="font-style: italic">artystycznie@joannajagiello.pl</span></a></p>
+        <p>Telefon: <a href="callto:+48602582128"><span style="font-style: italic">+48 602-582-128</span></a></p>
+        <p><a href="#" class="social"><img src="{{ asset('images/icons/fb.png') }}" height="50px" ></a>
+            <a href="#"  class="social"><img src="{{ asset('images/icons/ig.jpg') }}" height="50px"></a></p>
+    </div>
+
+{% endblock %}

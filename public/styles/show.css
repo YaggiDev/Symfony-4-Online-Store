@@ -1,0 +1,84 @@
+.content
+{
+    margin-left:5%;
+}
+.artykul
+{
+    width:80%;
+}
+.artykul p:first-child
+{
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.artykul img
+{
+    width:30%;
+    float:left;
+    margin-right:15%;
+}
+.artykul p[class="opis"]
+{
+    float:left;
+}
+button[class="zamow"] {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 20px;
+    box-shadow: none;
+    background-color: white;
+    border:2px solid black;
+    padding:20px 50px;
+    cursor: pointer;
+}
+button[class="zamow"]:hover
+{
+    background-color:black;
+    color:white;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+input[class="quantity_item"]
+{
+    height:30px;
+    width:50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: none;
+    border:1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+button[class="ValueManager"]
+ {
+    width:30px;
+     height:30px;
+     margin:5px;
+     background-color: rgb(235, 235, 235);
+     border:1px solid gray;
+     border-radius: 10px;
+     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+ }
+button[class="ValueManager"]:hover
+{
+    font-weight: 900;
+    background-color:rgb(209, 209, 209);
+}
+*:focus
+{
+    outline:none;
+}
+input[class="price"]
+{
+    background-color: white;
+    border:none;
+    width:50px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    text-align: center;
+
+}

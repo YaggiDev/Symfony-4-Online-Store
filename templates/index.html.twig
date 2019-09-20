@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+{% block title %}Artystycznie - Strona główna{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <div class="carousel-container">
+            <i class="fas fa-arrow-alt-circle-right" id="prevBtn"></i>
+            <i class="fas fa-arrow-alt-circle-right" id="nextBtn"></i>
+            <div class="carousel-slide">
+                <img src="{{asset('images/carousel/carousel4.jpg')}}" id="lastClone" alt="">
+                <img src="{{ asset('images/carousel/carousel2.jpg') }}" alt="">
+
+                <img src="{{ asset('images/carousel/carousel6.jpg') }}" alt="">
+
+                <img src="{{asset('images/carousel/carousel5.jpg')}}" alt="">
+                <img src="{{ asset('images/carousel/carousel1.jpg') }}" alt="">
+                <img src="{{asset('images/carousel/carousel4.jpg')}}" alt="">
+                <img src="{{asset('images/carousel/carousel2.jpg')}}" id="firstClone" alt="">
+            </div>
+
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+{% endblock %}
+{% block javascripts %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="{{asset('js/carousel.js')}}"></script>
+{% endblock %}

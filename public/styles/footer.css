@@ -1,0 +1,25 @@
+footer
+{
+    position:relative;
+    bottom:0;
+    height:28px;
+    width:100%;
+    background-color:rgba(68, 73, 79,1);
+    text-align: center;
+    color:white;
+    font-size: 14px;
+
+
+}
+footer li
+{
+    display:inline;
+    margin:2%;
+}
+
+footer a
+{
+    text-decoration: none;
+    color:white;
+    border:none;
+}

@@ -1,0 +1,32 @@
+.title_about
+{
+    margin:auto;
+    margin-top:3%;
+    width:100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+/*.image*/
+/*{*/
+/*    float:left;*/
+/*    margin:2%;*/
+/*    border-radius: 100%;*/
+/*    height:28%;*/
+/*    width:18%;*/
+
+/*    text-align: center;*/
+/*}*/
+/*.image img*/
+/*{*/
+/*    border-radius: 50%;*/
+/*    height:100%;*/
+/*    width:75%;*/
+
+
+/*}*/
+.content_about
+{
+
+    margin:2% 4% 0 4%;
+}

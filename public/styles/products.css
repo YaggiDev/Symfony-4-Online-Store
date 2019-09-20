@@ -1,0 +1,55 @@
+.title
+{
+    width:80%;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+    text-align:center;
+    font-size:55px;
+    font-family: 'Great Vibes', cursive;
+}
+.products
+{
+    margin:auto;
+    width:80%;
+}
+.products table
+{
+    width:100%;
+}
+.products table td
+{
+    border-radius: 80%;
+    width:33%;
+    text-align:center;
+    border:2px solid transparent;
+
+}
+.products table td img
+{
+    width:60%;
+    border-radius: 100%;
+    margin-bottom:-5%;
+}
+.products table td:hover
+{
+    border-top:2px solid black;
+    transition: 0.5s;
+   border-bottom:2px solid black;
+}
+
+.products a
+{
+    text-decoration: none;
+    color:black;
+}
+.products p[class="nazwa"]
+{
+    margin-top:0;
+    font-weight: 900;
+}
+.products p[class="cena"]
+{
+    margin-top:0;
+}
+

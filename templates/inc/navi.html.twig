@@ -1,0 +1,46 @@
+
+<div class="gora">
+    <div class="top">
+        <a href="/">
+            <img src="{{asset('images/Logogifek.png')}}" align="left" title="strona główna">
+            <br>
+            <p title="strona główna">
+                <span style="font-weight:900;">Joanna Jagiełło</span>
+                <br>
+                Artystycznie
+                </span></a></p>
+
+    </div>
+    <div class="account">
+        <ul>
+            <li><a href="{{path('account')}}"><img src="{{ asset('images/icons/icon.png') }}" height="20px" alt="">Konto</a></li>
+            {% if app.user.username is defined %}
+            <li><a href="{{ path('logout') }}">Wyloguj</a></li>
+            {% else %}
+            <li><a href="{{ path('login') }}">Zaloguj</a></li>
+            {% endif %}
+        </ul>
+        <ul style="text-align: center;">
+            <li class="basket"><a href="{{path('basket')}}"><img src="{{ asset('images/icons/basket.png') }}" height="20px" alt="">Koszyk [
+                  {% if app.session.get('count') > 0  %}
+                    {{app.session.get('count')}}
+                    {% else %}
+                    0
+                    {% endif %}]</a></li>
+        </ul>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li><a class="navi-link" href="/Omnie">O mnie</a></li>
+            <li><a class="navi-link" href="/Bizuteria">Biżuteria</a></li>
+            <li><a class="navi-link" href="/Wianki">Wianki</a></li>
+            <li><a class="navi-link" href="/Kontakt">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+<div class="kreska">
+
+</div>
+{% block javascripts %}
+<script type="text/javascript" src="{{ asset('js/basket_count.js') }}"></script>
+{% endblock %}

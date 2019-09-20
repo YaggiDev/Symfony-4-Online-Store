@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Artystycznie - {{kategoria}} {% endblock %}
+{% block head %}
+    <link href="{{ asset('/styles/products.css') }}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block body %}
+    <div class="title">
+        {{ kategoria }}
+    </div>
+    <div class="products">
+    {% set i = 0 %}
+   <table class="products_table">
+    {% for product in products %}
+
+        {% if i==0 %}
+        <tr>
+        {% endif %}
+
+            <td>
+                <a href="{{kategoria}}/{{ product.id }}">
+                    <img src="images/{{kategoria}}/{{ product.nazwa }}.jpg">
+                    <p class="nazwa">{{ product.nazwa }}</p>
+                    <p class="cena">{{ product.cena }} zł</p>
+                </a>
+            </td>
+
+
+        {% set i = i + 1 %}
+        {% if i >= 3 %}
+          </tr>
+            {% set i = 0 %}
+        {% endif %}
+    {% endfor %}
+    </table></center>
+    </div>
+{% endblock %}

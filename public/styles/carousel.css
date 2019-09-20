@@ -1,0 +1,68 @@
+.content
+{
+    position:relaitve;
+    height:80%;
+
+}
+.carousel-container
+{
+    position:relative;
+    height:100%;
+    width:95%;
+    margin:auto;
+    overflow:hidden;
+
+}
+.carousel-slide
+{
+    position:relative;
+    display:flex;
+
+    height:100%;
+
+}
+.carousel-slide img
+{
+    position:relative;
+    padding-right:3%;
+
+}
+
+
+#prevBtn
+{
+    position:absolute;
+    top:50%;
+    z-index: 10;
+    left:1%;
+    font-size:30px;
+    color:transparent;
+    opacity:0.9;
+    cursor:pointer;
+    background-image: url("http://pixsector.com/cache/d317f9c9/avefdb1ad8fbf8d8b72a2.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    border:none;
+    text-shadow: none;
+}
+#nextBtn
+{
+    position:absolute;
+    top:50%;
+    z-index: 10;
+    right:1%;
+    font-size:30px;
+    color:pink;
+    opacity:0.5;
+    cursor:pointer;
+    background-image: url("http://pixsector.com/cache/d317f9c9/avefdb1ad8fbf8d8b72a2.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    border:none;
+    text-shadow: none;
+}
+#nextBtn:hover
+{
+    opacity:1;
+
+}
