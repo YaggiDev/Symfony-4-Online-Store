@@ -6,109 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artystycznie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Logogifek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/carousel6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icons/ig.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/o_mnie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/Wianek wiosenny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/nazwa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/nazwa2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/nazwa3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/nazwa6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wianki/nazwa7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/basket_count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/quantity_item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/basket.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/show.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/WiankiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Artykuly.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Uzytkownicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190806105640.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArtykulyRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UzytkownicyRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Item.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/SearchInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/About.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Account/konto.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Contact.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inc/footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inc/navi.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/wianki/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/wianki/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BasketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sessions/sess_p7idphi51v7dh6i9gihkkebg6u" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessions/sess_p7idphi51v7dh6i9gihkkebg6u" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,12 +206,24 @@
       <workItem from="1568806576164" duration="92000" />
       <workItem from="1568806723308" duration="692000" />
       <workItem from="1568895253664" duration="613000" />
-      <workItem from="1568988549048" duration="1031000" />
+      <workItem from="1568988549048" duration="2424000" />
+      <workItem from="1569148161013" duration="1805000" />
+      <workItem from="1569173037264" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

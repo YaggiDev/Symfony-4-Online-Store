@@ -16,11 +16,9 @@ class BasketController extends AbstractController
      */
     public function index()
     {
-        $item = new Item("Wianek",123,1);
         if (isset($_SESSION['basket'])) {
             return $this->render('basket/index.html.twig', [
                 'controller_name' => 'BasketController',
-                'item' => $item,
                 'basket' => $_SESSION['basket'],
             ]);
         }
