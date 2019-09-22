@@ -7,3 +7,4 @@ This project presents online store's website made in Symfony 4 framework. The pr
 - [ ] Finish Account information site
 - [ ] Finish Database and relations
 - [ ] Add "Edit acc info" funcionality
+- [ ] Finish "CSS job"
