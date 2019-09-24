@@ -29,8 +29,8 @@ class Adress
     /**
      * @ORM\Column(type="string")
      */
-    private $streetAndNumber;
-
+    private $street;
+    
     public function getId(): ?int
     {
         return $this->id;
@@ -42,6 +42,23 @@ class Adress
     public function getCity()
     {
         return $this->city;
+    }
+    public function getStreet()
+    {
+        return $this->street;
+    }
+    /*Setters*/
+    public function setPostalCode($postalCode)
+    {
+        $this->postalCode = $postalCode;
+    }
+    public function setCity($city)
+    {
+        $this->city = $city;
+    }
+    public function setStreet($street)
+    {
+        $this->street = $street;
     }
 
 }

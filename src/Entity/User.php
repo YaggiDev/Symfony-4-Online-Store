@@ -40,6 +40,13 @@ class User implements UserInterface
      */
     private $email;
 
+    /**
+     * Many Users have one(same) Address.
+     * @ORM\ManyToOne(targetEntity="Adress")
+     * @ORM\JoinColumn(name="address_id",referencedColumnName="id")
+     */
+    private $address;
+
     public function getEmail()
     {
         return $this->email;
@@ -92,6 +99,15 @@ class User implements UserInterface
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function getAddress()
+    {
+        return $this->address;
+    }
+    public function setAddress($address)
+    {
+        $this->address = $address;
     }
 
     /**
