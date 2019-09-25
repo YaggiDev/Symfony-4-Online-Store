@@ -5,9 +5,10 @@
     <option name="CUSTOM_SCOPE_NAME" value="images" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Adress.php" afterDir="false" />
+    <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="Finished Address entity.&#10;Added Address column to Users entity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sessions/sess_qu31er3f22oh3cd55vei1k26kn" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessions/sess_qu31er3f22oh3cd55vei1k26kn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basket/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basket/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +208,9 @@
       <workItem from="1568895253664" duration="613000" />
       <workItem from="1568988549048" duration="2424000" />
       <workItem from="1569148161013" duration="1805000" />
-      <workItem from="1569173037264" duration="506000" />
+      <workItem from="1569173037264" duration="2472000" />
+      <workItem from="1569324793901" duration="4066000" />
+      <workItem from="1569408078741" duration="3863000" />
     </task>
     <task id="LOCAL-00001" summary="added Adress Entity">
       <created>1569173432302</created>
@@ -216,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569173432302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished Address entity.&#10;Added Address column to Users entity.">
+      <created>1569321345086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569321345086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +257,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Adress Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Adress Entity" />
+    <MESSAGE value="Finished Address entity.&#10;Added Address column to Users entity." />
   </component>
 </project>
