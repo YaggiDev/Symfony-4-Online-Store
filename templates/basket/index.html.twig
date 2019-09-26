@@ -9,7 +9,7 @@
         Koszyk
     </div>
     <div class="content_basket">
-        {% if basket is defined %}
+        {% if basket is not empty %}
          <table class="basket_table">
             <tr>
                 <td>Lp</td>
@@ -49,9 +49,12 @@
                 <p>Twoj koszyk jest pusty.</p>
         {% endif %}
     </div>
-    {% if basket is defined %}
+    {% if basket is not empty %}
     <div class="zamow">
-        <button type="">Zamów</button>
+        <form action="{{ path('order_info') }}" method="post">
+            <input type="hidden" value="koszyk" name="checker" style="visibility: hidden">
+        <button type="submit" >Zamów</button>
+        </form>
     </div>
     {% endif %}
 {% endblock %}
