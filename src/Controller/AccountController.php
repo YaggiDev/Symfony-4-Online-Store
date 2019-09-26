@@ -14,9 +14,9 @@ class AccountController extends AbstractController
      */
     public function Account(UserInterface $user)
     {
-        $orders = $this->getDoctrine()->getRepository(Orders::class)->findBy(array($user->getUsername()));
+//        $orders = $this->getDoctrine()->getRepository(Orders::class)->findBy();
         return $this->render('Account/konto.html.twig', [
-            'orders' => $orders
+//            'orders' => $orders
             ]);
     }
 }
