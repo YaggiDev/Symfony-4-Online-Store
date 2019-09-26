@@ -32,7 +32,9 @@ class Orders
     private $sum;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\User", mappedBy="id")
+     * Many Orders belongs to one User
+     * @ORM\ManyToOne(targetEntity="User")
+     * @ORM\JoinColumn(name="client_id",referencedColumnName="id")
      */
     private $id_client;
 
