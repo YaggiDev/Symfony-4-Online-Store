@@ -7,8 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="Finished Address entity.&#10;Added Address column to Users entity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sessions/sess_k45g6pjr631a3ul54kl6sivjkb" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessions/sess_k45g6pjr631a3ul54kl6sivjkb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BasketController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +150,12 @@
       <recent name="D:\Apache24\htdocs\artystycznie\public" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+      <command value="php bin/console " />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -211,7 +216,11 @@
       <workItem from="1569173037264" duration="2472000" />
       <workItem from="1569324793901" duration="4066000" />
       <workItem from="1569408078741" duration="5662000" />
-      <workItem from="1569427230863" duration="5665000" />
+      <workItem from="1569427230863" duration="6526000" />
+      <workItem from="1569684887762" duration="37000" />
+      <workItem from="1569684955944" duration="6806000" />
+      <workItem from="1569763373300" duration="1692000" />
+      <workItem from="1569862793309" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="added Adress Entity">
       <created>1569173432302</created>

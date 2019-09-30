@@ -4,7 +4,6 @@ namespace App\Controller;
 
 use App\Entity\Artykuly;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use App\Utils\Item;
@@ -16,14 +15,16 @@ class BasketController extends AbstractController
      */
     public function index()
     {
+
         if (isset($_SESSION['basket'])) {
             return $this->render('basket/index.html.twig', [
-                'controller_name' => 'BasketController',
                 'basket' => $_SESSION['basket'],
             ]);
         }
         else{
-            return $this->render('basket/index.html.twig');
+            return $this->render('basket/index.html.twig',[
+                'basket' => null
+            ]);
         }
     }
     /**
