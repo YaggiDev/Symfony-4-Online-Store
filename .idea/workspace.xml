@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="Finished Address entity.&#10;Added Address column to Users entity.">
+      <change afterPath="$PROJECT_DIR$/templates/order/confirm.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/ordered.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BasketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,20 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,7 +155,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -221,6 +237,11 @@
       <workItem from="1569684955944" duration="6806000" />
       <workItem from="1569763373300" duration="1692000" />
       <workItem from="1569862793309" duration="3619000" />
+      <workItem from="1570102480002" duration="7184000" />
+      <workItem from="1570212409098" duration="1024000" />
+      <workItem from="1570213444242" duration="71000" />
+      <workItem from="1570213525014" duration="51000" />
+      <workItem from="1570213584920" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="added Adress Entity">
       <created>1569173432302</created>

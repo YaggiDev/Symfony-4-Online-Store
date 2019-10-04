@@ -36,12 +36,12 @@ class User implements UserInterface
      * @ORM\Column(type="json")
      */
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", unique = true)
      */
     private $email;
 
     /**
-     * Many Users have one(same) Address.
+     * Many Users have one Address.
      * @ORM\ManyToOne(targetEntity="Adress")
      * @ORM\JoinColumn(name="address_id",referencedColumnName="id")
      */
