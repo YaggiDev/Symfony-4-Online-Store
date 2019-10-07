@@ -5,16 +5,16 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\ArtykulyRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\ArticlesRepository")
  */
-class Artykuly
+class Articles
 {
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
-    private $id_artykulu;
+    private $id;
     /**
      * @ORM\Column(type="string", unique=TRUE)
      */
@@ -35,7 +35,7 @@ class Artykuly
 
     public function getId(): int
     {
-        return $this->id_artykulu;
+        return $this->id;
     }
     public function getNazwa()
     {

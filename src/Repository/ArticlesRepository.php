@@ -2,25 +2,25 @@
 
 namespace App\Repository;
 
-use App\Entity\Artykuly;
+use App\Entity\Articles;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
- * @method Artykuly|null find($id, $lockMode = null, $lockVersion = null)
- * @method Artykuly|null findOneBy(array $criteria, array $orderBy = null)
- * @method Artykuly[]    findAll()
- * @method Artykuly[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Articles|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Articles|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Articles[]    findAll()
+ * @method Articles[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class ArtykulyRepository extends ServiceEntityRepository
+class ArticlesRepository extends ServiceEntityRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct($registry, Artykuly::class);
+        parent::__construct($registry, Articles::class);
     }
 
     // /**
-    //  * @return Artykuly[] Returns an array of Artykuly objects
+    //  * @return Articles[] Returns an array of Articles objects
     //  */
     /*
     public function findByExampleField($value)
@@ -37,10 +37,10 @@ class ArtykulyRepository extends ServiceEntityRepository
     */
 
 
-    public function findOneById($value): ?Artykuly
+    public function findOneById($value): ?Articles
     {
         return $this->createQueryBuilder('a')
-            ->andWhere('a.id_artykulu = :val')
+            ->andWhere('a.id = :val')
             ->setParameter('val', $value)
             ->getQuery()
             ->getOneOrNullResult()

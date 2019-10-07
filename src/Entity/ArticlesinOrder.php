@@ -4,7 +4,7 @@ namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use App\Entity\Orders;
-use App\Entity\Artykuly;
+use App\Entity\Articles;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ArticlesinOrderRepository")
@@ -25,7 +25,7 @@ class ArticlesinOrder
     private $order_id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Artykuly")
+     * @ORM\ManyToOne(targetEntity="Articles")
      * @ORM\JoinColumn(name="article_id",referencedColumnName="id")
      */
     private $article_id;

@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Entity\Artykuly;
+use App\Entity\Articles;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
@@ -40,7 +40,7 @@ class BasketController extends AbstractController
     public function AddToBasket(string $kategoria, int $id, Request $request)
     {
 
-        $product = $this->getDoctrine()->getRepository(Artykuly::class)->find($id);
+        $product = $this->getDoctrine()->getRepository(Articles::class)->find($id);
         $item = new Item($product->getNazwa(),$product->getCena(),(int)$request->request->getDigits('quantity'));
         $item->AddItem();
         $this->itemSum();
@@ -51,7 +51,7 @@ class BasketController extends AbstractController
      */
     public function RemoveFromBasket(string $nazwa)
     {
-        $product = $this->getDoctrine()->getRepository(Artykuly::class)->findOneBy(array('nazwa'=>$nazwa));
+        $product = $this->getDoctrine()->getRepository(Articles::class)->findOneBy(array('nazwa'=>$nazwa));
         $item = new Item($product->getNazwa(),$product->getCena(),0);
         $item->RemoveItem();
         $this->itemSum();
