@@ -96,6 +96,7 @@ class User implements UserInterface
     {
         $this->phone = $phone;
     }
+
     public function getId(): ?int
     {
         return $this->id;

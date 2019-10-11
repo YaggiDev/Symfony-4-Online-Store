@@ -53,6 +53,4 @@ class Articles
     {
         return $this->opis;
     }
-
-    
 }
