@@ -33,14 +33,14 @@ class AccountController extends AbstractController
      */
     public function EditInfo(Request $request, SessionInterface $session)
     {
-        $user = new User();
         $user = $this->getDoctrine()->getRepository(User::class)->find($this->getUser());
+        $adress = $this->getDoctrine()->getRepository(Adress::class)->find($user->getAddress());
         $form = $this->createFormBuilder($user)->add('name',TextType::class)
             ->add('surname',TextType::class)
             ->add('edit',SubmitType::class,array('label'=>'Edytuj', 'attr'=>array('class'=>'submit_button')))
         ->getForm();
        $form->handleRequest($request);
-        if($form->isSubmitted()&& $form->isValid())
+        if($form->isSubmitted() && $form->isValid())
         {
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->flush();

@@ -6,12 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9453c095-49a3-42ca-8650-9567fe24a617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Account/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Account/konto.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Account/konto.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sessions/sess_7eofeql00kg5850e3mba9mf8gk" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessions/sess_7eofeql00kg5850e3mba9mf8gk" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,6 +248,7 @@
       <workItem from="1570566443379" duration="2104000" />
       <workItem from="1570651191647" duration="600000" />
       <workItem from="1570701641563" duration="10861000" />
+      <workItem from="1570876985525" duration="12547000" />
     </task>
     <task id="LOCAL-00001" summary="added Adress Entity">
       <created>1569173432302</created>
